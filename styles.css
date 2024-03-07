@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  background-color: rgb(243, 237, 237);
+}
+
+#hache-uno {
+font-family: 'Courier New', Courier, monospace;
+  width: 8%;
+  margin-top: 10px;
+  font-size: 2rem;
+}
+
+#encriptador {
+  margin-top: 16vh;
+  margin-right: 6vw;
+  margin-bottom: 6vh;
+  width: 45%;
+}
+
+textarea {
+  width: 100%;
+  margin-bottom: 5vh;
+  padding: 10px;
+  line-height: 1.5rem;
+  font-family: sans-serif;
+  font-size: 1rem;
+  background-color: rgb(236, 223, 223);
+}
+
+#aviso {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 0.8rem;
+}
+
+#encript-btn {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+  padding: 10px 20px;
+  border: 1px solid rgb(101, 101, 238);
+  margin-right: 6px;
+  margin-bottom: 40px;
+}
+
+#desencript-btn {
+  background-color: white;
+  color: blue;
+  text-align: center;
+  border-radius: 12px;
+  padding: 10px 20px;
+  border: 1px solid rgb(101, 101, 238);
+  margin-bottom: 40px;
+}
+
+#div-texto-resultado {
+  position: relative;
+  width: 30%;
+  height: 90vh;
+  margin-top: 4vh;
+  margin-bottom: 6vh;
+  background-color: white;
+  border-radius: 16px;
+}
+
+#texto-resultado {
+  padding-top: 25px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  color: gray;
+  line-height: 1.4rem;
+  font-family: sans-serif;
+}
+
+#copiar-texto {
+  position: fixed; /* Change from "fixed" to "sticky" or "absolute" depending on your needs */
+  bottom: 10vh; /* Adjust to position it properly */
+  left: 68vw; /* Adjust to position it properly */
+  background-color: white;
+  color: blue;
+  text-align: center;
+  border-radius: 12px;
+  padding: 10px 60px;
+  border: 1px solid rgb(101, 101, 238);
+}
