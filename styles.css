@@ -89,7 +89,7 @@ textarea {
 
 #copiar-texto {
   position: fixed; /* Change from "fixed" to "sticky" or "absolute" depending on your needs */
-  bottom: 8%; /* Adjust to position it properly */
+  bottom: 10%; /* Adjust to position it properly */
   left: 68vw; /* Adjust to position it properly */
   background-color: white;
   color: blue;
