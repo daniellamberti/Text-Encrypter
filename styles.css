@@ -22,7 +22,7 @@ font-family: 'Courier New', Courier, monospace;
 }
 
 #encriptador {
-  margin-top: 16vh;
+  margin-top: 12vh;
   margin-right: 6vw;
   margin-bottom: 6vh;
   width: 45%;
@@ -89,7 +89,7 @@ textarea {
 
 #copiar-texto {
   position: fixed; /* Change from "fixed" to "sticky" or "absolute" depending on your needs */
-  bottom: 10vh; /* Adjust to position it properly */
+  bottom: 8%; /* Adjust to position it properly */
   left: 68vw; /* Adjust to position it properly */
   background-color: white;
   color: blue;
