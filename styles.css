@@ -15,7 +15,7 @@ main {
 }
 
 #hache-uno {
-font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   width: 8%;
   margin-top: 10px;
   font-size: 2rem;
@@ -88,13 +88,53 @@ textarea {
 }
 
 #copiar-texto {
-  position: fixed; /* Change from "fixed" to "sticky" or "absolute" depending on your needs */
-  bottom: 10%; /* Adjust to position it properly */
-  left: 68vw; /* Adjust to position it properly */
+  position: fixed;  
+  bottom: 10%;  
+  left: 68vw;  
   background-color: white;
   color: blue;
   text-align: center;
   border-radius: 12px;
   padding: 10px 60px;
   border: 1px solid rgb(101, 101, 238);
+}
+
+@media screen and (max-width: 480px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-left: 35px;
+  }
+
+  #encriptador {
+    width: 80%;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  }
+
+  #texto {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1vh;
+  }
+
+  #div-texto-resultado {
+    position: relative;
+    height: auto;
+    margin-top: 2vh;
+    margin-bottom: -2vh;
+    width: 80%;
+  }
+
+  #texto-resultado {
+    margin-bottom: 50px;
+  }
+
+  #copiar-texto {
+    position: absolute;
+    bottom: 0px;
+    left: 16vw;
+  }
 }

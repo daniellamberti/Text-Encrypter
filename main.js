@@ -60,5 +60,5 @@ desencriptBtn.addEventListener("click", function () {
 copiarTexto.addEventListener("click", function () {
   navigator.clipboard.writeText(textoResultado.textContent);
   alert(`El texto ${textoResultado.textContent} fue copiado al clipboard`);
-  textoResultado.textContent = " ";
+  textoResultado.textContent = "Texto encriptado / desencriptado ";
 });
