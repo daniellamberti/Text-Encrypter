@@ -108,28 +108,42 @@ textarea {
     padding-left: 35px;
   }
 
+  h1 {
+    margin-left: -30px;
+    color: red;
+  }
+
   #encriptador {
     width: 80%;
     margin-top: 4vh;
     margin-bottom: 2vh;
+    margin-top: 0;
   }
 
   #texto {
     display: block;
     margin: 0 auto;
     margin-bottom: 1vh;
+  } 
+  
+  #botones {
+    margin-top: 10px;
+  }
+
+  #encript-btn, #desencript-btn {
+    margin-bottom: 20px;
   }
 
   #div-texto-resultado {
     position: relative;
     height: auto;
-    margin-top: 2vh;
+    margin-top: -10px;
     margin-bottom: -2vh;
     width: 80%;
   }
 
   #texto-resultado {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 
   #copiar-texto {
