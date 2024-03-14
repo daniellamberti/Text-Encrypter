@@ -29,7 +29,7 @@ encriptBtn.addEventListener("click", function () {
   }
 
   textoResultado.textContent = mensajeEncript;
-  textoEl.value = " ";
+  textoEl.value = mensajeEncript;
   mensajeEncript = " ";
 });
 
@@ -53,12 +53,14 @@ desencriptBtn.addEventListener("click", function () {
     console.log(mensajeDesencript);
   }
   textoResultado.textContent = mensajeDesencript;
-  textoEl.value = " ";
-  mensajeDesencript = " ";
+  textoEl.value = mensajeDesencript;
+
 });
 
 copiarTexto.addEventListener("click", function () {
+  let placeholder = textoEl.placeholder;
   navigator.clipboard.writeText(textoResultado.textContent);
   alert(`El texto ${textoResultado.textContent} fue copiado al clipboard`);
   textoResultado.textContent = "Texto encriptado / desencriptado ";
+  textoEl.value = placeholder;
 });
